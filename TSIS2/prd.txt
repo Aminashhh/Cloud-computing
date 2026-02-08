@@ -1,0 +1,10 @@
+Feature Requirement (PRD):
+
+Write a Python function called parse_csv(file_path).
+
+Requirements:
+1. The function must open and parse a CSV file.
+2. It must return a list of dictionaries.
+3. It must handle FileNotFoundError.
+4. It must prevent security issues (no eval, no exec).
+5. The function must not crash if the file is missing.
